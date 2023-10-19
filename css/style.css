@@ -1,0 +1,1365 @@
+/*-------RESETEO DE CSS---------*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+/*-------------DECLARACIONES GENERALES-------*/
+ul,
+ol {
+    list-style: none;}
+
+
+a{
+    text-decoration: none;}
+
+    /*-----AGREGE UNA TYPOGRAFIA---*/
+@font-face {
+    font-family: "Cerebri Sans Book";
+    src: url("https://db.onlinewebfonts.com/t/f4cb1154c306bae3235d2a4a4b037f53.eot");
+    src: url("https://db.onlinewebfonts.com/t/f4cb1154c306bae3235d2a4a4b037f53.eot?#iefix")format("embedded-opentype"),
+    url("https://db.onlinewebfonts.com/t/f4cb1154c306bae3235d2a4a4b037f53.woff2")format("woff2"),
+    url("https://db.onlinewebfonts.com/t/f4cb1154c306bae3235d2a4a4b037f53.woff")format("woff"),
+    url("https://db.onlinewebfonts.com/t/f4cb1154c306bae3235d2a4a4b037f53.ttf")format("truetype"),
+    url("https://db.onlinewebfonts.com/t/f4cb1154c306bae3235d2a4a4b037f53.svg#Cerebri Sans Book")format("svg");
+}
+@font-face {
+    font-family: "Cerebri Sans Bold";
+    src: url("https://db.onlinewebfonts.com/t/ad775834db281065fc17e86ad857bf63.eot");
+    src: url("https://db.onlinewebfonts.com/t/ad775834db281065fc17e86ad857bf63.eot?#iefix")format("embedded-opentype"),
+    url("https://db.onlinewebfonts.com/t/ad775834db281065fc17e86ad857bf63.woff2")format("woff2"),
+    url("https://db.onlinewebfonts.com/t/ad775834db281065fc17e86ad857bf63.woff")format("woff"),
+    url("https://db.onlinewebfonts.com/t/ad775834db281065fc17e86ad857bf63.ttf")format("truetype"),
+    url("https://db.onlinewebfonts.com/t/ad775834db281065fc17e86ad857bf63.svg#Cerebri Sans Bold")format("svg");
+}
+
+@font-face {
+    font-family: "Cerebri Sans Regular";
+    src: url("https://db.onlinewebfonts.com/t/bb018e64d01355748d8ddc53553850b9.eot");
+    src: url("https://db.onlinewebfonts.com/t/bb018e64d01355748d8ddc53553850b9.eot?#iefix")format("embedded-opentype"),
+    url("https://db.onlinewebfonts.com/t/bb018e64d01355748d8ddc53553850b9.woff2")format("woff2"),
+    url("https://db.onlinewebfonts.com/t/bb018e64d01355748d8ddc53553850b9.woff")format("woff"),
+    url("https://db.onlinewebfonts.com/t/bb018e64d01355748d8ddc53553850b9.ttf")format("truetype"),
+    url("https://db.onlinewebfonts.com/t/bb018e64d01355748d8ddc53553850b9.svg#Cerebri Sans Regular")format("svg");
+}
+
+
+/* ----------- Declaraciones del parrafo generales-------------*/
+
+p {
+    font-family: 'cerebri sans book', sans-serif;
+    letter-spacing: 2px; 
+    line-height: 2;
+    margin: 40px ;
+    color: black;
+    display: block;
+    text-align: justify;
+
+}
+
+/*-----------------HEADER general-----------------------------*/
+
+
+
+     /*-------------------header-hover--------------------------------*/
+    .nav-link:hover {
+       text-shadow: 0 0 3px rgba(255, 255, 255, 0.7), 0 0 8px rgba(255, 255, 255, 0.7), 0 0 12px rgba(210, 177, 106, 0.7);
+       color: #FFF;
+    }
+
+    .navbar-nav .nav-item {
+      margin-right: 50px;
+    }
+
+    .nav-link {
+      font-family: Cerebri sans Regular;
+      font-weight: lighter;
+      font-size: 18px;
+    }
+ /*---------Header------*/
+
+
+  .navbar-nav li {
+    display: inline-block;
+    margin-right: 80px;
+  }
+
+  .navbar-nav  a {
+    text-decoration: none;
+    color: white;
+    
+  }
+
+ .nav-item {
+    font-family: Cerebri sans Regular;
+    font-weight: lighter;
+    font-size: 18px;
+    color: #FFF;
+    
+ }
+
+ .nav-link {
+    font-family: Cerebri Sans bold;
+    font-weight: bolder;
+    font-size: 14px;
+ }
+
+ .navbar-toggler-icon {
+    filter: invert(100%); /* Esto convierte colores oscuros en claros, y viceversa. En este caso, convertirá el ícono negro en blanco. */
+ }
+
+ header {
+    background-color: black;
+    padding: 40px 0;
+ }
+
+ .logosphera-header {
+    width: 150px;
+    height: auto;
+    border-right: 1px solid white;
+    padding-right: 30px;
+ }
+
+
+/*------------------------------------------FOOTERgeneral-------------------------------------------------*/
+footer{
+    height: 15vh;
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+  
+    
+ 
+}
+
+
+
+.logo-footer{
+
+    width: 100px;  /* Ancho de 200 píxeles */
+    height: 75px; /* Alto de 150 píxeles */
+    align-items: center;
+    margin-top: 15px;
+    
+}
+
+.text-footer{
+
+       font-family: 'Cerebri sans regular';
+       font-size: medium;
+       padding:15px;  
+       letter-spacing: 2px; 
+       text-shadow:  0 0 20px      #ffffffc2;
+
+}
+
+.Join-us{
+        padding: 15px;
+        font-family: 'Cerebri sans bold';
+        font-size: small;
+}
+
+.redes{
+        display: flex;
+    
+}
+    .ig{
+        height: 50px; /*  alto fijo para la imágenes */
+        width: auto; /* Mantiene la proporción de la imagen */
+        margin-left: 10px; /* Espacio entre imágenes */
+        align-items: baseline;
+    }
+    .lk{
+        height: 50px; /*  alto fijo para la imágenes */
+        width: auto; /* Mantiene la proporción de la imagen */
+        margin-left: 10px; /* Espacio entre imágenes */
+        align-items: baseline;
+    }
+             
+
+        /*MEDIAQUERY FOOTER-----------------*/
+
+/*--------MediaQueries Mobile/tablets---------*/
+@media screen and (max-width: 990px) {
+    footer{
+        height: 10vh;
+        background-color: black;
+        color: white;
+        display: flex;
+        justify-content: space-around;
+      
+        }
+    
+        .logo-footer{
+    
+         width: 60px;  /* Ancho de 200 píxeles */
+         height: auto; /* Alto de 150 píxeles */
+         align-items: baseline;
+         margin-bottom: 15px;
+         margin-top: 10px;
+        
+        }
+    
+        .text-footer{
+    
+           font-family: 'Cerebri sans regular';
+           font-size: small;
+           margin-top: 10px;
+           margin-left: 10px;
+           padding:0px;  
+           letter-spacing: 2px; 
+           text-shadow:  0 0 20px      #ffffffc2;
+        }
+    
+        .Join-us{
+    
+    
+            padding: 15px;
+            font-family: 'Cerebri sans bold';
+            font-size: 10px;
+        }
+    
+        .redes{
+            display: block;
+        
+        }
+    
+        .ig{
+            height: 50px; 
+            width: auto; /* Mantiene la proporción de la imagen */
+            margin-left: 10px; /* Espacio entre imágen */
+            align-items: baseline;
+        }
+        .lk{
+            height: 50px; 
+            width: auto; /* Mantiene la proporción de la imagen */
+            margin-left: 10px; /* Espacio entre imágen */
+            align-items: baseline;
+        }
+    }
+    
+@media screen and (max-width: 432px){
+    
+       .text-footer{
+       font-size: x-small;
+       }
+    
+     .ig{
+            height: 30px; 
+            width: auto; /* Mantiene la proporción de la imagen */
+            margin-left: 10px; /* Espacio entre imágen */
+            align-items: baseline;
+        }
+        .lk{
+            height: 30px; 
+            width: auto; /* Mantiene la proporción de la imagen */
+            margin-left: 10px; /* Espacio entre imágen */
+            align-items: baseline;
+        }
+    
+        .Join-us{
+            font-size: 7px;
+    
+    
+           
+        }
+    
+    
+    
+    }
+    
+    
+    
+/*--------------------------------------------------------HOME------------------------------------------------------------*/
+        /*Portada-----------------------------------*/
+        /*-------Seccion1------*/
+        .h-portada {
+            background-color: black;
+            height: 75vh;
+        }
+           .home-portada-imagen{
+            display: block;
+            max-width: 100%; 
+            height: auto;
+            margin: 0 auto; /* Centrar imágenes de forma horizontal */
+        }
+
+        /*------Seccion2---*/
+
+        .h-d-box{
+            background-color: white; /* Fondo blanco del contenedor */
+            border-radius: 20px;     /* Bordes redondeados */
+            padding:20px;           /* Espacio interno alrededor del contenido */
+            box-shadow: 0px 4px 15px rgba(210, 209, 209, 0.442); /* Sombra para darle el efecto "flotante" */
+            max-width: 1300px;            /* Ancho del contenedor */
+            height: 410px;            /* Alto del contenedor*/
+            margin: 0px auto;       /* Centra horizontalmente en su contenedor y da espacio arriba y abajo */
+            }
+
+
+        .h-data {
+            background-color: black;
+            height: 55vh;
+         }
+
+        .h-d-b-imagen {
+            height: 380px;
+            width: 430px;
+            float: right;
+            /*border-radius: 10px;*/
+           /* box-shadow: 0 0 30px rgba(255, 255, 255, 0.729);*/
+           padding-left: 60px;
+         }
+    
+         .h-d-b-titulo{
+           font-family: 'cerebri sans bold';
+           font-size: 20px;
+           color: black;
+           display:flex;
+           padding: 25px;
+           margin: 0;
+           letter-spacing: 1px;
+         }
+  
+         .h-d-b-c-parrafo {
+            
+            font-size: 15px;
+            margin: 20px; 
+            color: black;
+            text-align: justify;
+            padding-right: 10px;
+            }
+
+         
+            
+        .h-d-b-subtitulo{
+                font-family: 'Cerebri Sans Regular';
+                text-align: end;
+                color: #d2b16a;
+                text-shadow:  0 0 20px      #d2b16a;
+                font-size: large;
+                margin-top: 40px;
+                
+            }
+
+        .home-link{
+           font-family: 'Cerebri sans bold';
+           font-size: small;
+           padding:23px;   
+            }
+        
+        
+        /*----------MediaQueryHOME----------*/
+
+        @media screen and (min-width: 990px){
+
+            .home-read-more{
+                display: none;
+            }
+        }
+
+        @media screen and (min-width: 991px) and (max-width: 1307px) {
+
+            .h-portada {
+                background-color: black;
+                height: auto; 
+            }
+        
+            .h-p-imagen {
+                display: block;
+                max-width: 100%; 
+                height: auto;
+                margin: 0 auto; /* Centrar imágenes de forma horizontal */
+            }
+
+
+    
+            .h-d-box {
+                max-width: 100%;  /* Se adapta al ancho del viewport */
+                height: auto;
+                margin: 0 auto;   /* Centra horizontalmente */
+                overflow: hidden; /* Esconde contenido que intenta sobresalir del contenedor */
+            }
+        
+            .h-data {
+                background-color: black;
+                height: auto;     /* Cambiado a auto para adaptarse al contenido */
+            }
+        
+            .h-d-b-imagen {
+                height: auto;     /* Permitir que la altura se adapte */
+                max-width: 100%;  /* Se asegura que la imagen no exceda el ancho del contenedor */
+                float: none;      /* Se elimina el float para que ocupe todo el ancho */
+                display: block;
+                margin: 0 auto;   /* Centrar horizontalmente */
+                padding-left: 0;  /* Se elimina el padding para usar todo el espacio disponible */
+            }
+        
+            .h-d-b-titulo {
+           
+                display: block;   /* Cambiado a block para que ocupe su propia línea */
+                padding: 25px;
+                margin: 0 auto;   /* Centrar horizontalmente */
+                letter-spacing: 1px;
+            }
+        
+            .h-d-b-c-parrafo {
+                font-size: 15px;
+                margin: 20px; 
+                color: black;
+                text-align: justify;
+                padding-right: 10px;
+            }
+        
+        
+            
+            .h-d-b-subtitulo {
+               
+                margin-top: 20px; /* Reducido para mejor adaptabilidad */
+            }
+        
+            .h-link {
+            
+                padding: 15px;    /* Reducido para mejor adaptabilidad */
+            }
+        }
+            
+        
+        /*--------HOMEMediaQueries Mobile/tablets---------*/
+        @media screen and (max-width: 990px) {
+
+/* seccion1 */
+    .h-portada {
+        background-color: black;
+        height: auto; 
+    }
+
+    .h-p-imagen {
+        display: block;
+        max-width: 100%; 
+        height: auto;
+        margin: 0 auto; /* Centrar imágenes de forma horizontal */
+    }
+
+/* Seccion2 */
+    .h-d-box {
+        background-color: white;
+        border-radius: 10px; 
+        padding: 10px;
+        box-shadow: 0px 2px 10px rgba(210, 209, 209, 0.442);
+        width: 90%;  /* Se reduce el ancho para adaptarse mejor a dispositivos móviles */
+        height: auto;
+        margin: auto; 
+    }
+
+    .h-data {
+        background-color: black;
+        height: auto;
+    }
+
+    .h-d-b-imagen{
+        height: auto;
+        width: 90%;
+        float: none; /* Se elimina el flotado para que se muestre de forma bloque en dispositivos móviles */
+        margin: 0 auto; /* Centrar imágenes de forma horizontal */
+        padding-left: 0; /* Se elimina el padding para adaptarse mejor a dispositivos móviles */
+        box-shadow: none;
+    }
+
+    .h-d-b-titulo {
+        font-size: 18px; /* Se reduce el tamaño de la fuente para dispositivos móviles */
+        padding: 15px;
+        margin: 0;
+    }
+
+    .h-d-b-c-parrafo {
+        font-size: 14px;
+        margin: 10px;
+        padding-right: 0;
+        padding-left: 10px;
+        max-height: 70px;        /* Aquí definimos cuánto quieres mostrar antes del "Ver más" */
+        overflow: hidden;         /* Esconde el contenido que excede la altura máxima */
+        display: -webkit-box;     /* Estilo antiguo para mostrar el contenido como caja flexible */
+        -webkit-line-clamp: 3;    /* Número de líneas que quieres mostrar */
+        -webkit-box-orient: vertical;
+    }
+    
+    .home-read-more {
+        color: #d2b16a;                /* Color del enlace */
+        text-decoration: underline; /* Subrayado para hacerlo parecer un enlace */
+        cursor: pointer;            /* Cambia el cursor a una mano al pasar por encima */
+        display: block;    
+        font-size: 10px;    
+        margin-left: 20px;     /* Asegura que esté en su propia línea */
+    }
+    
+    .h-d-b-content:hover .h-d-b-c-parrafo {
+        max-height: 991px;           /* Muestra todo el contenido cuando se pasa por encima */
+        display: block;             /* Revertir a display block */
+    }
+    
+    .h-d-b-content:hover .home-read-more {
+        display: none;              /* Esconde el "Ver más" cuando el contenido se expande */
+    }
+   
+
+    .h-d-b-subtitulo {
+        font-size: medium;
+        margin-top: 20px;
+    }
+
+    .h-link {
+        padding: 10px;
+        margin-left: 20px;
+        font-size: 10px;
+    }
+
+}
+
+/*-----------------------------------------------------WORK----------------------------------------------------------------*/
+
+/*--------WORK-PORTADA-----------------------*/
+        /*-------work-Seccion1------*/
+        .w-portada {
+            background-color: black;
+            height: 100vh;
+        }
+           .w-p-video{
+            display: block;
+            max-width: 80%; 
+            height: auto;
+            margin: 0 auto; /* Centrar imágenes de forma horizontal */
+        }
+        .w-p-titulo{
+            color: whitesmoke;
+               font-family: 'cerebri sans bold';
+              font-size: 30px;
+              display:flex;
+              padding: 25px;
+              margin: 0;
+              letter-spacing: 3px;
+              
+           }
+       /*--------work-Seccion 2---------*/
+
+       .w-metodo {
+        background-color: black;
+        height: 55vh;
+     }
+
+       .w-m-solo{
+        text-align: center;
+        font-size: 20px;
+        color: white;
+        letter-spacing: 8px;
+        margin: 0;               /* Quitamos margen para que esté perfectamente centrado */
+        font-family: 'cerebri sans regular';
+
+        }
+
+      .w-m-box{
+       background-color: white;
+       padding: 10px;           /* Espacio interno alrededor del contenido */
+       box-shadow: 0px 4px 15px rgba(210, 209, 209, 0.442); /* Sombra para darle el efecto "flotante" */
+       max-width: 1200px;            /* Ancho del contenedor */
+       height: 400px;            /* Alto del contenedor*/
+       margin-left: auto;        /* Empuja el contenedor hacia la derecha */
+       margin-right: 0;          /* Margen derecho es 0 */
+       clip-path: polygon(5% 5%, 100% 0%, 95% 100%, 0% 100%);
+        }
+
+
+       
+
+         .w-m-b-titulo{
+
+           color: rgba(0, 0, 0, 0.892);
+           font-family: 'cerebri sans bold';
+           font-size: 30px;
+           display:flex;
+           margin-top: 10px;
+           letter-spacing: 10px;
+           justify-content:center;
+           text-shadow:  0 0 20px      #e4ba60; 
+
+
+        }
+
+         .w-m-b-parrafo{
+
+            font-size: 15px;
+            color: black;
+            text-align:center;
+            margin: 30px;
+            
+         }
+ 
+         .ensphera{
+            font-family: 'Cerebri sans bold';
+         }
+
+
+
+      /*-----------work-seccion3-------*/
+
+    .w-gymti{
+
+    background-color: black;
+    height: 70vh;
+}
+
+    .w-g-titulo{
+
+      color: whitesmoke;
+      font-family: 'cerebri sans bold';
+      font-size: 30px;
+      letter-spacing: 10px;
+      justify-content:left;
+      padding-left: 50px;
+      padding-top: 30px;
+
+    }
+
+    
+    .w-g-c-parrafo {
+        color: whitesmoke;
+        font-size: 15px;
+        overflow: hidden;
+        transition: max-height 0.5s;
+        text-align: justify;
+        max-height: 180px;  /* 5 renglones x 16.6px (aproximado para una fuente de 15px) */
+        display: -webkit-box;
+        -webkit-line-clamp: 5;  /* Número de líneas que quieres mostrar */
+        -webkit-box-orient: vertical;
+    }
+    .w-read-more {
+        color: #d2b16a;
+        text-decoration: underline;
+        cursor: pointer;
+        display: block;
+        font-size: 15px;
+        margin-left: 50px;
+    }
+    .w-g-content:hover .w-g-c-parrafo {
+        max-height: 768px;           /* Muestra todo el contenido cuando se pasa por encima */
+        display: block;             /* Revertir a display block */
+    }
+    
+    .w-g-content:hover .w-read-more {
+        display:none;              /* Esconde el "Ver más" cuando el contenido se expande */
+    }
+   
+
+    .w-imagen {
+        display: flex;
+        justify-content: center; /* Centrar el contenido horizontalmente */
+        align-items: center; /* Centrar el contenido verticalmente */
+        background-color: black; /* Color de fondo de la sección */
+        height: 100%; /* Puedes ajustar esto según lo necesites */
+        padding: 40px; /* Añadir un pequeño relleno para que las imágenes no toquen los bordes directamente */
+    }
+    
+    .w-i-final {
+        display: flex; /* Dispone los hijos en fila */
+        align-items: center; /* Centrar las imágenes verticalmente */
+    }
+    
+    .cuerpo-original,
+    .cuerpo-blanco-negro {
+        width: auto; /* Mantener la relación de aspecto */
+        height: 400px; /* Ajustar la altura de las imágenes */
+        margin: 0 5px; /* Añade un pequeño espacio entre las imágenes */
+    }
+    
+    .cuerpo-blanco-negro {
+        filter: grayscale(100%); /* Convertir la imagen a blanco y negro */
+    }
+    
+    
+    /*----------MediaQuerywork----------*/
+
+    
+
+
+@media screen and (min-width: 1000px) and (max-width: 1307px) {
+
+    .W-portada {
+        background-color: black;
+        height: auto; 
+        
+    }
+
+    .w-p-video {
+        display: block;
+        max-width: 100%; 
+        height: auto;
+        margin: 0 ; /* Centrar imágenes de forma horizontal */
+        
+    }
+
+
+
+    .w-m-box {
+        max-width: 100%;  /* Se adapta al ancho del viewport */
+        max-height: auto;
+        margin: 0 auto;   /* Centra horizontalmente */
+        overflow: hidden; /* Esconde contenido que intenta sobresalir del contenedor */
+    }
+
+   
+    .w-gymti {
+        background-color: black;
+        height: 75vh;     /* Cambiado a auto para adaptarse al contenido */
+        width: auto;
+        
+    }
+
+   
+
+    .w-g-titulo {
+   
+        display: block;   /* Cambiado a block para que ocupe su propia línea */
+        padding: 25px;
+        margin: 0 auto;   /* Centrar horizontalmente */
+        letter-spacing: 1px;
+    }
+
+    .w-g-c-parrafo {
+        font-size: 15px;
+        margin: 20px; 
+        color: white;
+        text-align: justify;
+        padding-right: 10px;
+    }
+
+  
+    
+    .w-g-content:hover .w-g-c-parrafo {
+        /*max-height: 768px;           /* Muestra todo el contenido cuando se pasa por encima */
+        display: block;             /* Revertir a display block */
+    }
+    
+    .w-g-content:hover .w-read-more {
+        display: none ;              /* Esconde el "Ver más" cuando el contenido se expande */
+    }
+
+
+
+    .w-i-final{
+    display: block;
+    max-width: 100%; 
+    height: auto;
+    margin: 0 auto; /* Centrar imágenes de forma horizontal */
+    }
+
+}
+
+/*----------------------------------------------ABOUTUS--------------------------------------------------------------------*/
+
+ /*-------Seccion1------*/
+        .a-portada {
+            background-color: black;
+            height: 100vh;
+        
+            
+        }
+           .a-p-imagen{
+            display: block;
+            max-width: 100%; 
+            height: auto;
+            margin: 0 auto; /* Centrar imágenes de forma horizontal */
+        }
+        .a-p-titulo{
+            color: whitesmoke;
+               font-family: 'cerebri sans bold';
+              font-size: 30px;
+              display:flex;
+              padding: 25px;
+              margin: 0;
+              letter-spacing: 3px;
+              
+           }
+
+
+
+ /* ------------------sección 2------------- */
+.a-info {
+    background-color: black;
+    display: grid;
+    grid-template-columns: 2fr 1fr; /* Divide la sección en dos columnas, la izquierda es dos veces más grande que la derecha */
+    align-items: center; /* Alinea los elementos verticalmente en el centro */
+    gap: 20px; /* Añade un pequeño espacio entre el artículo y el iframe */
+    padding: 20px; /* Añade un padding alrededor de la sección */
+}
+
+/* Estilos para el título y párrafo */
+.a-i-titulo {
+    font-size: 32px; /* Ajusta el tamaño del texto del título */
+    color: whitesmoke; /* Cambia el color del título */
+    text-shadow:  0 0 20px      #e4ba60; 
+}
+
+.a-i-quienes-somos {
+    font-size: 20px;
+    color: whitesmoke;
+    text-align:center;
+    margin: 30px;
+    font-family: 'cerebri sans book', sans-serif;
+
+}
+
+/* Estilo para el iframe */
+iframe {
+    width: 100%; /* Asegura que el iframe ocupe todo el ancho de su contenedor */
+    height: 100%; /* Asegura que el iframe ocupe todo el alto de su contenedor */
+    border: 0; /* Elimina el borde del iframe */
+}
+
+/*-----------------seccion 3 */
+
+.a-pilares{   
+    background-color: black;
+    padding: 2em 0; /* Espaciado arriba y abajo */
+    text-align: center; /* Centrar contenido */
+    display: flex; /* Uso flexbox para alinear los elementos */
+    flex-direction: column; /* Ordenar elementos en columna */
+    align-items: center; /* Centrar elementos horizontalmente */
+    height: 90vh;
+}
+
+
+.a-p-titulo2 {
+    color: white; 
+    font-size: 32px; 
+    margin-bottom: 1em; 
+    font-family: 'cerebri sans regular';
+}
+
+/* Estilos generales para los cuadros blancos que contienen valores y texto */
+.a-p-v1, .a-p-v2, .a-p-v3 {
+    background-color: white; 
+    width: 300px; 
+    height: 430px; /* Altura del cuadro (para garantizar que todos tengan el mismo tamaño) */
+    padding: 1em; /* Espaciado interno del cuadro */
+    margin:  0 5em; /* Espaciado externo horizontal del cuadro */
+    text-align: center; /* Alineación del texto a la izquierda */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra sutil alrededor del cuadro */
+    border-radius: 30px;
+    font-family: 'cerebri sans bold';
+}
+
+/* Wrapper para los cuadros blancos para que estén en una fila */
+.a-pilares > div {
+    display: flex; /* Usar flexbox para alinear los elementos horizontalmente */
+    justify-content: center; /* Centrar los cuadros horizontalmente */
+    width: 100%; /* Ancho completo de su contenedor padre */
+}
+
+/* Estilo para los encabezados "valores" */
+.a-p-v-valores {
+    text-transform: uppercase; /* Convertir texto a mayúsculas */
+    color: black; /* Color de texto negro */
+    margin-bottom: 6px; /* Espaciado debajo del encabezado */
+    font-size: 20px;
+    
+}
+
+/* Estilo para los párrafos debajo de "valores" */
+.a-p-v1 .a-p-v-parrafo, .a-p-v2 .a-p-v-parrafo, .a-p-v3 .a-p-v-parrafo {
+    color: black; /* Color de texto negro */
+    font-size: 14px; /* Tamaño de letra */
+
+}
+
+/* ----------------MEDIAQUERY-----------------*/
+
+@media screen and (min-width: 991px) and (max-width: 1307px) {
+
+    .a-portada {
+        background-color: black;
+        height: auto; 
+    }
+
+    .a-p-imagen {
+        display: block;
+        max-width: 100%; 
+        height: auto;
+        margin: 0 auto; /* Centrar imágenes de forma horizontal */
+    }
+
+    .a-info{
+
+        background-color: black;
+        height: auto; 
+    }
+
+    .a-p-v1, .a-p-v2, .a-p-v3 {
+        background-color: white; 
+        width: 300px; 
+        height: 430px; /* Altura del cuadro (para garantizar que todos tengan el mismo tamaño) */
+        padding: 1em; /* Espaciado interno del cuadro */
+        margin:  0 1em; /* Espaciado externo horizontal del cuadro */
+        text-align: center; /* Alineación del texto a la izquierda */
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra sutil alrededor del cuadro */
+        border-radius: 30px;
+        font-family: 'cerebri sans bold';
+
+    }
+
+    .a-p-v1 .a-p-v-parrafo, .a-p-v2 .a-p-v-parrafo, .a-p-v3 .a-p-v-parrafo {
+        color: black; /* Color de texto negro */
+        font-size: 13px; /* Tamaño de letra */
+    
+    }
+
+
+    }
+
+
+/*--------HOMEMediaQueries Mobile/tablets---------*/
+@media screen and (max-width: 990px) {
+
+    .a-portada {
+        background-color: black;
+        height: auto; 
+    }
+
+    .a-p-imagen {
+        display: block;
+        max-width: 100%; 
+        height: auto;
+        margin: 0 auto; /* Centrar imágenes de forma horizontal */
+    }
+
+    .a-info{
+
+        background-color: black;
+        height: auto; 
+        display: inline-block;
+    }
+
+    .a-i-titulo {
+        font-size: 25;
+
+    }
+
+    .a-i-quienes-somos{
+    font-size: 15px ;
+    }
+
+
+
+  
+
+.a-pilares {   
+    background-color: black;
+    padding: 2em 0; /* Espaciado arriba y abajo */
+    text-align: center; /* Centrar contenido */
+    display: flex; /* Uso flexbox para alinear los elementos */
+    flex-direction: column; /* Ordenar elementos en columna */
+    align-items: center; /* Centrar elementos horizontalmente */
+    height: auto; /* Permitir que el contenedor se adapte a la altura del contenido */
+    justify-content: center; /* Centrar elementos verticalmente */
+}
+
+.a-p-titulo2 {
+    color: white; 
+    font-size: 32px; 
+    margin-bottom: 1em; 
+    font-family: 'cerebri sans regular';
+}
+
+/* Estilos generales para los cuadros blancos que contienen valores y texto */
+.a-p-v1, .a-p-v2, .a-p-v3 {
+    background-color: white; 
+    width: 300px; 
+    padding: 1em; /* Espaciado interno del cuadro */
+    margin: 1em 0; /* Espaciado arriba y abajo del cuadro */
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra sutil alrededor del cuadro */
+    border-radius: 30px;
+    font-family: 'cerebri sans bold';
+}
+
+/* Removemos el flexbox para que los cuadros estén uno debajo del otro */
+.a-pilares > div {
+    width: 100%; /* Ancho completo de su contenedor padre */
+}
+
+/* Estilo para los encabezados "valores" */
+.a-p-v-valores {
+    text-transform: uppercase; /* Convertir texto a mayúsculas */
+    color: black; /* Color de texto negro */
+    margin-bottom: 6px; /* Espaciado debajo del encabezado */
+    font-size: 20px;
+}
+
+/* Estilo para los párrafos debajo de "valores" */
+.a-p-v1 .a-p-v-parrafo, .a-p-v2 .a-p-v-parrafo, .a-p-v3 .a-p-v-parrafo {
+    color: black; /* Color de texto negro */
+    font-size: 14px; /* Tamaño de letra */
+}
+
+ 
+}
+
+
+
+
+
+/*--------------------------------------------------------CONTACTUS--------------------------------------------------*/
+
+
+.main{
+    background-color: black;
+}
+
+/*-----seccion1-----*/
+
+.c-portada{
+
+    height: 10vh;
+    background-color: white;
+    margin-top: 0px
+    ;
+    
+}
+
+
+.c-p-titulo{
+    color: black;
+       font-family: 'cerebri sans bold';
+      font-size: 30px;
+      display:flex;
+      padding: 25px;
+      margin: 0;
+      letter-spacing: 3px;
+      margin-top: 20px;
+   }
+
+/*-----seccion2-----*/
+
+
+.c-m-minititulo {
+    text-align: center;
+    font-size: 20px;
+    color: black;
+    letter-spacing: 8px;
+    margin: 0;               /* Quitamos margen para que esté perfectamente centrado */
+    font-family: 'cerebri sans regular';
+}
+
+/*-------- seccion 3---*/
+
+.c-datos {
+    display: flex; /* Establece una disposición flexible para organizar los hijos */
+    justify-content: space-between; /* Espacio entre los elementos */
+    padding: 20px; /* Espacio alrededor de la sección */
+    align-items: center; /* Centra los elementos verticalmente */
+}
+
+
+.c-d-run{ 
+    height: 500px;
+    width: auto;
+    float: right;
+    margin-right: 30px;
+    border-radius: 1500%;
+}
+
+.datos-de-contacto {
+    flex: 1; /* Toma el espacio restante después de la imagen */
+    background-color: white; /* Fondo blanco para el recuadro */
+    padding: 20px; /* Espacio interno del recuadro */
+    border-radius: 10px; /* Bordes redondeados */
+    box-sizing:content-box;
+    margin: 60px;
+    padding-left : 100px;
+    align-items: center;
+  
+}
+
+.empieza{
+
+    text-align: left;
+    font-size: 20px;
+    color:black;
+    letter-spacing: 8px;
+    margin: 0;               /* Quitamos margen para que esté perfectamente centrado */
+    font-family: 'cerebri sans regular';
+ 
+}
+        .datos-de-contacto label,
+        .datos-de-contacto input,
+        .datos-de-contacto button {
+            display: block;
+            margin-bottom: 10px;
+            justify-content: center;
+            font-family: 'cerebri sans regular';
+            
+        }
+
+         .datos-de-contacto input {
+
+           padding: 10px 200px;             
+           border-radius: 25px;           /* Bordes redondeados */
+           border: 2px solid rgba(147, 137, 137, 0.687);     
+           background-color: transparent; /* Fondo transparente */
+           color: white;                  /* Texto en blanco */
+           font-size: 16px;            
+           transition: border-color 0.3s ease, box-shadow 0.3s ease; /* Efecto de transición suave al cambiar el color del borde y sombra */
+    
+    
+           ::placeholder {
+            color: #bfbfbf;           /* Color gris claro para el placeholder */
+            font-weight: normal;      /* Peso normal de letra para el placeholder */
+            font-family: 'cerebri sans regular';
+            
+           
+            }
+    
+        /* Efecto al poner el cursor dentro del input */
+           :focus {
+            border-color: #e6e6e6;   /* Cambiar el color del borde a un gris claro al hacer foco */
+            box-shadow: 0 0 8px rgba(230, 230, 230, 0.6); /* Añadir una sombra alrededor del input al hacer foco */
+            outline: none;           /* Quitar el borde por defecto al hacer foco */
+            }
+        }
+
+        .datos-de-contacto button {
+            margin: 10px 0;          
+            background-color: rgba(147, 137, 137, 0.687); /* Fondo blanco */
+            color: white;            /* Letra en negro */
+            border: none;            /* Sin bordes */
+            padding: 10px 20px;      /* Añadir relleno para que sea más grande */
+            border-radius: 25px;     /* Bordes redondeados */
+            cursor: pointer;         /* Cambiar el cursor a una mano al pasar sobre el botón */
+            transition: background-color 0.3s ease; /* Efecto de transición suave al cambiar de color */
+            font-weight: bold;       /* Texto en negrita */
+            letter-spacing: 1px;     /* Espaciado entre letras */
+            margin-top: 10px;
+
+        }
+      /* Efecto al pasar el cursor sobre el botón */
+      .datos-de-contacto button:hover {
+        background-color: black; /* Cambiar el color del fondo a un gris claro al pasar el cursor */
+       }
+
+
+
+
+
+/*--------------------------------------------------------MEMBERSHIP--------------------------------------------------*/
+
+
+
+/*--------------seccion 1 -------------*/
+
+.m-portada {
+    background-color: black;
+    height: 15vh;
+    display: flex;           /* Habilita Flexbox */
+    justify-content: center; /* Centra horizontalmente */
+    align-items: center;     /* Centra verticalmente */
+}
+
+.m-p-minititulo {
+    text-align: center;
+    font-size: 20px;
+    color: white;
+    letter-spacing: 8px;
+    margin: 0;               /* Quitamos margen para que esté perfectamente centrado */
+    font-family: 'cerebri sans regular';
+}
+
+
+/*--------seccion 2-----------*/
+body {
+    background-color: black;
+}
+
+
+.m-portada1 {
+    display: flex;          
+    align-items: center;    
+    padding: 30px;         
+    justify-content: space-between; /* Separación equitativa de los elementos */
+
+}
+
+    .m-p1-titulos {
+       max-width: 50%;         /* Limita el ancho del contenedor de títulos */
+       margin-left: 30px;
+    
+    
+    }
+
+       .m-p1-t-subtitulo {
+          text-transform: uppercase; 
+          letter-spacing: 3px;      
+          color: white;             
+          font-size: 35px;          
+          text-shadow: 2px 2px 4px rgba(255,255,255,0.1); 
+          margin-bottom: 90px;      /*  espacio entre el título y el div de descuento */
+          text-align: left;         /* Alineado a la izquierda */
+          font-family: 'cerebri sans bold';
+        }
+
+
+
+
+        .descuento {
+            display: flex;
+            flex-direction: column;  
+            align-items: center;     /* Centrar elementos en el eje transversal */
+            width: 80%;              /* No estirar a todo el ancho */
+            margin: 0 auto;          /* Centrar contenedor */
+            background-color: whitesmoke;
+            border-radius: 1%;
+            font-family: 'cerebri sans regular';
+        }
+        
+            .m-p1-t-s-d-pre {
+                color: black;             
+                font-size: 1.5em;        /* Tamaño de letra más grande */
+                margin-bottom: 15px;  
+                margin-top: 15px;   
+                font-family: 'cerebri sans bold';
+            }
+        
+            .descuento label,
+            .descuento input,
+            .descuento button {
+                margin: 10px 0;          /* Añade margen en la parte superior e inferior para un mejor espaciado */
+                font-family: 'cerebri sans regular';
+            }
+        
+               .descuento button {
+                  margin: 10px 0;          
+                  background-color: white; /* Fondo blanco */
+                  color: black;            /* Letra en negro */
+                  border: none;            /* Sin bordes */
+                  padding: 10px 20px;      /* Añadir relleno para que sea más grande */
+                  border-radius: 25px;     /* Bordes redondeados */
+                  cursor: pointer;         /* Cambiar el cursor a una mano al pasar sobre el botón */
+                  transition: background-color 0.3s ease; /* Efecto de transición suave al cambiar de color */
+                  font-weight: bold;       /* Texto en negrita */
+                  letter-spacing: 1px;     /* Espaciado entre letras */
+        
+                }
+        
+                /* Efecto al pasar el cursor sobre el botón */
+                     .descuento button:hover {
+                        background-color: #e6e6e6; /* Cambiar el color del fondo a un gris claro al pasar el cursor */
+                    }
+        
+                .descuento input[type="email"] {
+                   padding: 10px 15px;             /* Añadir relleno para que sea más cómodo de leer */
+                   border-radius: 25px;           /* Bordes redondeados */
+                   border: 2px solid white;       /* Bordes en blanco */
+                   background-color: transparent; /* Fondo transparente */
+                   color: white;                  /* Texto en blanco */
+                   font-size: 16px;               /* Tamaño de letra */
+                   transition: border-color 0.3s ease, box-shadow 0.3s ease; /* Efecto de transición suave al cambiar el color del borde y sombra */
+        
+               /* Estilos para el placeholder del input */
+                ::placeholder {
+                color: #bfbfbf;           /* Color gris claro para el placeholder */
+                font-weight: normal;      /* Peso normal de letra para el placeholder */
+                }
+        
+            /* Efecto al poner el cursor dentro del input */
+                :focus {
+                border-color: #e6e6e6;   /* Cambiar el color del borde a un gris claro al hacer foco */
+                box-shadow: 0 0 8px rgba(230, 230, 230, 0.6); /* Añadir una sombra alrededor del input al hacer foco */
+                outline: none;           /* Quitar el borde por defecto al hacer foco */
+                }
+                }
+        
+
+
+   .m-p1-imagen {
+       border-radius: 300px;     
+       max-width: 40%;          /* Asegurar que la imagen no ocupe demasiado espacio */
+       flex-shrink: 0;          /* Evitar que la imagen se encoja */
+       margin-right: 30px;
+    }
+
+
+
+/*---------seccion2---------*/
+
+.m-frase{
+    background-color: black;
+    height: 10vh;
+    display: flex;           /* Habilita Flexbox */
+    justify-content: center; /* Centra horizontalmente */
+    align-items: center;     /* Centra verticalmente */
+
+
+}
+
+    .m-f-exclusivo{
+
+        text-align: center;
+        font-size: 20px;
+        color: white;
+        letter-spacing: 8px;
+        margin: 0;               /* Quitamos margen para que esté perfectamente centrado */
+        font-family: 'cerebri sans bold';
+    }
+
+
+
+   /*-----------seccion3---------*/
+
+.grid-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr; /* Define dos columnas con el mismo tamaño */
+    grid-template-rows: auto auto;  /* Define dos filas que se ajusten al contenido */
+    gap: 20px; /* Espaciado entre filas y columnas */
+    background-color: white;
+}
+
+.g-c-suscripcion {
+    background-color: white;
+    padding: 20px;
+    border-radius: 50px;
+    grid-column: 1; /* Ubicada en la primera columna */
+    grid-row: 1;    /* Ubicada en la primera fila */
+}
+
+.g-c-suscripcion1 {
+    background-color: white;
+    padding: 10px;
+    border-radius: 10px;
+    grid-column: 2; /* Ubicada en la segunda columna */
+    grid-row: 2;    /* Ubicada en la segunda fila */
+}
+
+.g-c-s-numero {
+    color: grey;
+    font-size: 40px;
+    text-transform: uppercase;
+}
+
+.g-c-s-pasos {
+    font-weight: bold;
+    font-size: 35px;
+    color: black;
+}
+
+.g-c-s-susc {
+    color: black;
+    font-size: 15px;
+}
+
+.link-contact {
+    font-size: 10px;
+    margin-left: 20px;
+}
+
+
